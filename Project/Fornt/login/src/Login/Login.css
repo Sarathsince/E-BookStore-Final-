@@ -1,0 +1,17 @@
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, #ffcc00, #ff6699, #cc66ff, #3399ff);
+  }
+  25% {
+    background: linear-gradient(45deg, #ff6699, #cc66ff, #3399ff, #ffcc00);
+  }
+  50% {
+    background: linear-gradient(45deg, #cc66ff, #3399ff, #ffcc00, #ff6699);
+  }
+  75% {
+    background: linear-gradient(45deg, #3399ff, #ffcc00, #ff6699, #cc66ff);
+  }
+  100% {
+    background: linear-gradient(45deg, #ffcc00, #ff6699, #cc66ff, #3399ff);
+  }
+}
